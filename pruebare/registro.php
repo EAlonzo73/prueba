@@ -1,4 +1,8 @@
-
+<html>
+ <head>
+ <title>Registro</title>
+ </head>
+ <body>
 <?php 
 $conexion = mysqli_connect("localhost", "root", "", "enfermo");
  
@@ -14,3 +18,5 @@ mysqli_query($conexion, "INSERT INTO `enfermo`.`zuniga` (`dpi`, `nombre`, `apell
 echo "Exito...";
 mysqli_close($conexion); 
 ?>
+ </body>
+ </hmtl> 
